@@ -3,6 +3,7 @@
     background-position: 100%;
 
 }
+/* HEADER */
 h1{
     font-size:40px;
     font-weight: bold;
@@ -12,11 +13,12 @@ h1{
     
 }
 
+/* WHOLE DIV WITH CLOCK */
 .clock{ 
     background-color: white;
 }
 
-
+/* CLOCK FACE */
 .clock__wrapper{
     width:500px;
     height:500px;
@@ -32,6 +34,7 @@ h1{
     height:100%;
 }
 
+/* HOUR HAND */
 
 .clock__hour{
     left:20%;
@@ -44,7 +47,7 @@ h1{
     transform-origin:100%;
 }
 
-
+/* MINUTES HAND */
 
 .clock__min{
     left:10%;
@@ -56,7 +59,7 @@ h1{
     transform:rotate(90deg);
     transform-origin:100%;
 }
-
+ /* SECONDS HAND */
 .clock__sec{
     width:50%;
     background-color: yellow;
